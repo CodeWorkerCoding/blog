@@ -13,6 +13,7 @@
         <module>blog-service</module>
         <module>blog-service.impl</module>
         <module>blog-web</module>
+        <module>nchu-base</module>
     </modules>
 
 
