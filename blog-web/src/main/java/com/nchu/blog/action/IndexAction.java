@@ -14,6 +14,6 @@ public class IndexAction {
 
     @GetMapping("/index")
     public String index() {
-        return "index";
+        return "lw-index";
     }
 }
