@@ -14,6 +14,15 @@ public class IndexAction {
 
     @GetMapping("/index")
     public String index() {
-        return "lw-index";
+        return "index";
+    }
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+
+    @GetMapping("/register")
+    public String register() {
+        return "register";
     }
 }
