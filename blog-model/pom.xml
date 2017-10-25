@@ -17,6 +17,15 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <!--Base Utils-->
+        <dependency>
+            <groupId>com.nchu.blog</groupId>
+            <artifactId>nchu-base</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <!--End-->
+
     </dependencies>
     <build>
         <finalName>blog-model</finalName>

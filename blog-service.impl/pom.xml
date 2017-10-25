@@ -17,6 +17,14 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
+
+        <!--This Project Module-->
+        <dependency>
+            <groupId>com.nchu.blog</groupId>
+            <artifactId>blog-service</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <!--End-->
     </dependencies>
     <build>
         <finalName>blog-service.impl</finalName>

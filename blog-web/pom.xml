@@ -55,12 +55,26 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!--other-->
-
+		<!--Other-->
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
+		<!--End-->
+
+		<!--This Project Module-->
+		<dependency>
+			<groupId>com.nchu.blog</groupId>
+			<artifactId>blog-service</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.nchu.blog</groupId>
+			<artifactId>blog-service.impl</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<!--End-->
+
 	</dependencies>
 
 	<build>

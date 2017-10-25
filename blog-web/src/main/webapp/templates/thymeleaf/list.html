@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <title>Thymeleaf Demo page</title>
+    <div th:include="common/include :: include"></div>
+</head>
+<body>
+
+    <table class="am-table">
+        <thead>
+            <th></th>
+            <th>作者序号</th>
+            <th>作者名称</th>
+        </thead>
+        <tbody>
+            <tr th:each="quote:${list}">
+                <td th:text="${quoteStat.count}"></td>
+                <td th:text="${quote.authorName}"></td>
+                <td th:text="${quote.authorId}"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div th:include="common/include :: footer"></div>
+</body>
+</html>
