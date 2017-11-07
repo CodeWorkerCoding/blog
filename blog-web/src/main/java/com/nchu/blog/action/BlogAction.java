@@ -15,4 +15,9 @@ public class BlogAction {
     public String list() {
         return "/blog/list";
     }
+
+    @GetMapping("new")
+    public String createBlog() {
+        return "/blog/create";
+    }
 }
